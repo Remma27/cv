@@ -35,12 +35,7 @@ const CVVisual = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-4 bg-white text-black font-sans text-xs">
-      <div className="mb-4 flex justify-between">
-        <button onClick={exportToPDF} className="mr-2 px-2 py-1 bg-blue-500 text-white rounded text-xs">Exportar a PDF</button>
-        <button onClick={printCV} className="px-2 py-1 bg-green-500 text-white rounded text-xs">Imprimir/Guardar como PDF</button>
-      </div>
-
+    <div className="container mx-auto p-4">
       <div id="cv-content" className="text-xs">
         <header className="mb-2 border-b pb-1">
           <h1 className="text-xl font-bold mb-2">EMMANUEL DE JESÚS RODRÍGUEZ SOLANO</h1>
